@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My CV</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<div class="site-wrapper">
+		<header class="site-header">
+			<div class="site-header__image"><img src="images/photo.jpg"  alt="My photo"></div>
+			<div class="site-header__text">
+				<h1 class="site-header__title">Rushena Adjigeldieva</h1>
+				<h2 class="site-header__position">Junior FrontEnd-dev</h2>
+			</div>
+		</header>
+		<main class="site-main">
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">About</h2>
+				<div class="site-main__section-text">
+					I have a background in web technology, with a focus on frontend development. I am the type of person who seizes every opportunity to learn something new. That is why I enjoy challenges. From there, I'm under pressure to learn quickly and gain a lot of new experience.
+				</div>
+			</section>
+
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">Education</h2>
+				<div class="site-main__section-text">
+					<div class="site-main__section-grid">
+						<div class="site-main__section-grid-title">2010 - 2013</div>
+						<div class="site-main__section-grid-text">Studied at the Lyceum at the University at the Faculty of Exact Sciences</div>
+						<div class="site-main__section-grid-title">2013 - 2017</div>
+						<div class="site-main__section-grid-text">Entered the University at the Faculty of Telecommunication Technologies</div>
+						<div class="site-main__section-grid-title">2013 - now</div>
+						<div class="site-main__section-grid-text">Started working in a WEB Company</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">Skills</h2>
+				<div class="site-main__section-text">
+					<ul>
+						<li>HTML, CSS, Sass</li>
+						<li>Javascript</li>
+						<li>PHP</li>
+						<li>React</li>
+						<li>Node JS</li>
+						<li>Understanding UI Design; Visual Hierarchy, Design System, etc</li>
+						<li>English level: A1</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">Projects</h2>
+				<div class="site-main__section-text">
+					<ol class="site-main__section-projects">
+						<li><a href="https://github.com/rushena/learn_php" target="_blank">Make Shop: PHP + HTML + CSS + JS</a></li>
+						<li><a href="https://github.com/rushena/brackets" target="_blank">Brackets</a></li>
+					</ol>
+				</div>
+			</section>
+
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">Code example</h2>
+				<div class="site-main__section-text">
+<pre>
+  function bingo(ticket, win){
+	let res = 0;
+
+	ticket.forEach(([str, num]) => {
+	  const temp = str.split('').some(i => i.charCodeAt() == num);
+	  res += temp ? 1 : 0;
+	});
+
+	return res >= win ? 'Winner!' : 'Loser!';
+  }
+</pre>
+				</div>
+			</section>
+
+			<section class="site-main__section">
+				<h2 class="site-main__section-title">Contacts</h2>
+				<div class="site-main__section-text">
+					<ul class="site-main__section-contacts">
+						<li><a href="https://t.me/rushena94" target="_blank"><img src="images/ph_telegram-logo.svg" alt="Telegram"> Telegram</a></li>
+						<li><a href="https://www.instagram.com/rushenka94/" target="_blank"><img src="images/simple-icons_instagram.svg" alt="Instagram"> Instagram</a></li>
+						<li><a href="https://github.com/rushena/" target="_blank"><img src="images/simple-icons_github.svg" alt="Github"> Github</a></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="site-footer">
+			<div class="site-footer__github">
+				<a href="https://github.com/rushena" target="_blank"><img src="images/github.png" alt="Ссылка на GitHub"></a>
+				&copy; 2022
+			</div>
+			<a class="site-footer__course" href="https://rs.school/js/" target="_blank">
+				<img src="images/rs_school_js.svg" alt="RS School">
+			</a>
+		</footer>
+	</div>
+</body>
+</html>
